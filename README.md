@@ -848,13 +848,3 @@ CREATE TABLE employee_salary (
     salary DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (id) REFERENCES Employee_table(id)
 );
-Populate the tables with sample data if needed.
-
-Configure Database Connection:
-
-Update the DB_CONFIG dictionary in the code with your PostgreSQL credentials:
-
-DB_CONFIG = {
-    "
-Upgrade to SuperGrok
-New conversation - Grok
