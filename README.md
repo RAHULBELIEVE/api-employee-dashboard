@@ -20,9 +20,9 @@ app = FastAPI()
 DB_CONFIG = {
     "host": "localhost",
     "port": "5432",
-    "dbname": "Demo_db",
-    "user": "postgres",
-    "password": "Lucky@1295"}
+    "dbname": "ZZZZ",
+    "user": "YYYYY",
+    "password": "XXXXX"}
 
 # Build connection string with encoding for special characters
 user = urllib.parse.quote_plus(DB_CONFIG['user'])
